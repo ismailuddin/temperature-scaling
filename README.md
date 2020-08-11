@@ -7,7 +7,7 @@
 - The expected calibration error (ECE) is calculated and reliability diagrams plotted for the trained model
 - Reusable functions provided for calculating ECE, as well as plotting reliability diagrams
 - Temperature scaling is performed using **gradient descent** and the **Adam** optimiser
-    - *The model trained on Fashion MNIST does not appear to be very uncalibrated. Temperature scaling did not appear to work or atleast offer any improvements. Suggestions welcome.*
+- Based on [PyTorch implementation](https://github.com/gpleiss/temperature_scaling) by paper authors.
 
 ## Requirements
 - Python 3.X
